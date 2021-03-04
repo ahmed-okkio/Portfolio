@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('ITC Avant Garde Gothic Std Book'), url('../../Fonts/ITCAvantGardeStdMd.woff') format('woff');
+}
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std Book';
+    font-style: normal;
+    font-weight: normal;
+    src: local('ITC Avant Garde Gothic Std Book'), url('../../Fonts/ITCAvantGardeStdBk.woff') format('woff');
+}
+    
+.navBody {
+    top:0;
+    display:flex;
+    position: absolute;
+    width: 100%;
+    height:64px;
+    align-items: center;
+    background-color: white;
+    justify-content: center;
+    z-index: 8;
+    -webkit-box-shadow: 0px 1px 5px 2px #000000; 
+    box-shadow: 0px 1px 6px 1px rgba(0,0,0,0.52);
+    
+}   
+
+.displayName {
+    width:100%;
+}
+.nameContainer {
+    display: flex;  
+    font-family: 'ITC Avant Garde Gothic Std Book';
+    list-style: none;
+    font-size: 3em;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;  
+}
+
+.firstName {
+    color: #7e7e7e;
+}
+.lastName {
+    font-family: 'ITC Avant Garde Gothic Std Medium';
+    color: #2bb7b2;    
+}
+
+
+.links {
+    margin-left: auto;
+    margin-right:2%;
+}
+.linksContainer {
+    display: flex;
+    margin:0;
+    width:300px;
+    min-width: 100px;
+   justify-content: space-evenly;
+    list-style: none;
+}
+.linksContainer img{
+    width: 45px;
+}
