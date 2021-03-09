@@ -1,0 +1,28 @@
+.WelcomeTextContainer {
+    position: absolute;
+    width:100%;
+    top: 25%;
+   
+}
+
+.WelcomeText {
+    color:white;
+    opacity: 0.1;
+    font-size: 80px;
+    transition: 600ms ease-out;
+}
+.DoubleArrow {
+    transition: 600ms ease-out 800ms;
+    width: calc(5vw + 5vh);
+    margin-bottom: 0;
+    animation: arrowdown 1s infinite ease-in-out;
+    opacity:0;
+    margin-top:calc(100vh - (5vw + 5vh) - 64px);
+    fill: white;
+}
+
+@keyframes arrowdown {
+    0% {transform:translateY(0);}
+    50% {transform: translateY(8px);}
+}
+

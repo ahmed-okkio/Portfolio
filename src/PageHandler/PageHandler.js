@@ -4,6 +4,7 @@ import NavBar from '../Components/NavBar/NavBar';
 
 const PageHandler = () =>
 {
+
     return(
         <>
             <NavBar></NavBar>

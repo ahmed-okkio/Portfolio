@@ -1,16 +1,3 @@
-@font-face {
-    font-family: 'ITC Avant Garde Gothic Std Medium';
-    font-style: normal;
-    font-weight: normal;
-    src: local('ITC Avant Garde Gothic Std Book'), url('../../Fonts/ITCAvantGardeStdMd.woff') format('woff');
-}
-@font-face {
-    font-family: 'ITC Avant Garde Gothic Std Book';
-    font-style: normal;
-    font-weight: normal;
-    src: local('ITC Avant Garde Gothic Std Book'), url('../../Fonts/ITCAvantGardeStdBk.woff') format('woff');
-}
-    
 .navBody {
     top:0;
     display:flex;
@@ -30,6 +17,7 @@
     width:100%;
 }
 .nameContainer {
+    margin:0;
     display: flex;  
     font-family: 'ITC Avant Garde Gothic Std Book';
     list-style: none;

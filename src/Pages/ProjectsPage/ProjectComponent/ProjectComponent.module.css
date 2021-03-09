@@ -1,0 +1,83 @@
+.ProjectContainer {
+    width: 50%;
+    height:100%;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.VisibleContainer {
+    width: 640px; /*calc here*/
+    height: 365px; /*calc here*/
+    
+    display: flex;
+    justify-content: center;
+}
+.animatedBorder {
+    /* top:-2px; */
+    width: 640px; /*calc here*/
+    height: 365px; /*calc here*/
+    transition: 250ms ease-out;
+    border: 1px rgb(141, 125, 93) solid;
+    position: absolute;
+    display: block;
+    clip-path: polygon(
+        0% var(--notchSize), 
+        var(--notchSize) 0%, 
+        calc(100% - var(--notchSize)) 0%, 
+        100% var(--notchSize), 
+        100% calc(100% - var(--notchSize)), 
+        calc(100% - var(--notchSize)) 100%, 
+        var(--notchSize) 100%, 
+        0% calc(100% - var(--notchSize))
+      );
+}
+.VisibleContainer:hover .animatedBorder {
+    clip-path: polygon(
+        0% 0%, 
+        0% 0%, 
+        calc(100% - 0%) 0%, 
+        100% 0%, 
+        100% calc(100% - 0%), 
+        calc(100% - 0%) 100%, 
+        0% 100%, 
+        0% calc(100% - 0%)
+      );
+}
+.VisibleOutline {
+    width: 640px; /*calc here*/
+    height: 360px; /*calc here*/
+    border: 1px white solid;
+    
+}
+.imageContainer {
+    margin-top:auto;
+    margin-bottom: auto;
+    overflow: hidden;
+    width: 630px; /*calc here*/
+    height: 354.38px; /*calc here*/
+}
+.VisibleContainer img {
+    width: inherit; /*calc here*/
+    height: inherit; /*calc here*/
+    margin-top:auto;
+    margin-bottom: auto;
+    transition: transform 150ms ease-out;
+    cursor: pointer;
+}
+.VisibleContainer:hover img {
+    transform: scale(1.06);
+}
+.ProjectDescription {
+    width: 640px; /*calc here*/
+    height: 360px; /*calc here*/
+    color: rgb(252, 252, 252);
+    font-family: 'Roboto';
+    /* text-align: justify; */
+    margin:0;
+    margin-top:10px;
+}
+:root {
+    --notchSize: 5%;
+}

@@ -18,3 +18,26 @@ code {
   width: 100%;
   height:calc(100% - 60px);
 }
+
+.Typewriter__cursor {
+  color:white;
+  font-size: 50px;
+}
+@font-face {
+  font-family: 'ITC Avant Garde Gothic Std Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('ITC Avant Garde Gothic Std Book'), url('./Fonts/ITCAvantGardeStdMd.woff') format('woff');
+}
+@font-face {
+  font-family: 'ITC Avant Garde Gothic Std Book';
+  font-style: normal;
+  font-weight: normal;
+  src: local('ITC Avant Garde Gothic Std Book'), url('./Fonts/ITCAvantGardeStdBk.woff') format('woff');
+}
+@font-face {
+  font-family: 'ITC Avant Garde Gothic Std XL';
+  font-style: normal;
+  font-weight: normal;
+  src: local('ITC Avant Garde Gothic Std Book'), url('./Fonts/ITCAvantGardeStdXLt.woff') format('woff');
+}

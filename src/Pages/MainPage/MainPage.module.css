@@ -2,5 +2,9 @@
     width: 100%;
     margin-top:60px;
     height: 100%;   
-    background-color: #091012;
+    background-color: #040c14;
+}
+.Page {
+    height: calc(100vh - 64px);
+    background-color: #040c14;
 }
