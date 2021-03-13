@@ -18,7 +18,7 @@ const WelcomeText = () => {
             setTextStyle({
                 opacity:0
             })
-        },2000)
+        },700)
     }
     useEffect(()=>{
         welcomeAnimation('Hi');
@@ -29,8 +29,8 @@ const WelcomeText = () => {
                 setTextStyle({
                     opacity:1
                 })
-            },2000)
-        },2700)
+            },700)
+        },1200)
     },[]);
     return(
         <>

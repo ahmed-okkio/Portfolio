@@ -12,6 +12,7 @@ const ProjectComponent = (props) => {
                     </div>
                 </div>
             </a>
+            <div className={classes.projectName}>{props.projectName}</div>
             <div className={classes.ProjectDescription}>
                 {props.desc}
             </div>

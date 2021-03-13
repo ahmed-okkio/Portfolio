@@ -5,6 +5,7 @@
     background-color: #040c14;
 }
 .Page {
-    height: calc(100vh - 64px);
+    min-height: auto;
+    max-height: calc(100vh - 64px);
     background-color: #040c14;
 }

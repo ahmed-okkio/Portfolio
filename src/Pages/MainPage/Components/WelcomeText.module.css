@@ -14,10 +14,10 @@
 .DoubleArrow {
     transition: 600ms ease-out 800ms;
     width: calc(5vw + 5vh);
-    margin-bottom: 0;
+    margin-bottom:calc(40vh - (5vw + 5vh) - 64px);
     animation: arrowdown 1s infinite ease-in-out;
     opacity:0;
-    margin-top:calc(100vh - (5vw + 5vh) - 64px);
+    margin-top:calc(80vh - (5vw + 5vh) - 64px);
     fill: white;
 }
 

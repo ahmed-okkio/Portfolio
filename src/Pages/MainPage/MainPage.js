@@ -1,8 +1,10 @@
 import React, {useState, useEffect} from 'react';
 import classes from './MainPage.module.css';
 import WelcomeText from './Components/WelcomeText';
+import SkillsPage from '../SkillsPage/SkillsPage';
 import ProjectsContainer from '../ProjectsPage/ProjectsContainer';
 import FinalPage from '../FinalPage/FinalPage';
+
 
 const MainPage = () =>
 {
@@ -22,10 +24,13 @@ const MainPage = () =>
                     <WelcomeText/>
                 </div>
                 <div className={classes.Page}>
+                    <SkillsPage scrollOffset={scrollOffset}/>
+                </div>
+                <div className={classes.Page}>
                     <ProjectsContainer scrollOffset={scrollOffset}/>
                 </div>
                 <div className={classes.Page}>
-                    <FinalPage/>
+                    <FinalPage scrollOffset={scrollOffset}/>
                 </div>
             </div>
         </>

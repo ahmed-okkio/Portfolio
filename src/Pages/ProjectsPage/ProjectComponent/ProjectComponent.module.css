@@ -19,7 +19,7 @@
     width: 640px; /*calc here*/
     height: 365px; /*calc here*/
     transition: 250ms ease-out;
-    border: 1px rgb(141, 125, 93) solid;
+    border: 1px #7e7e7e solid;
     position: absolute;
     display: block;
     clip-path: polygon(

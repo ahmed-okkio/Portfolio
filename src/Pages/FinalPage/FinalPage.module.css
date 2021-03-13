@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap');
+.FinalPageContainer {
+    height:150vh;
+    position: relative;
+    background-color: #040c14;
+    color:#d3d3d3c2;
+    font-family: 'ITC Avant Garde Gothic Std Medium';
+    overflow: hidden;
+}
+.Footer {
+    font-family: 'Roboto';
+    position: absolute;
+    bottom:0;
+    width:100%;
+    height:20%;
+    display:flex;
+    font-weight: bold;
+    /* border-top: 1px solid white ; */
+    background-color: #061627;
+    align-items: center;
+}
+.Credits {
+    margin-top:10px;
+    font-size: 20px;
+    text-align: left;
+    font-weight: 500;
+    color:white;
+    margin-left: 2%;
+    margin-right:auto;
+    display: flex;
+}
+.whiteBar {
+    /* margin-top:2px; */
+    width:8px;
+    height:initial;
+    margin-right:5px;
+    background-color:#2bb7b2;
+}
+.Name {
+    font-size: 15px;
+}
+.linksContainer {
+    display:flex;
+    width:25%;
+    margin-right:3%;
+    justify-content: space-evenly;
+}
+.linksContainer a {
+    overflow: hidden;
+    list-style: none;
+    background: linear-gradient(to right, #2bb7b2, #2bb7b2 50%, rgb(255, 255, 255) 50%);
+    transition: background-position 275ms ease;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    display: inline-block;
+    position: relative;
+    text-decoration:none;
+    color:white;
+}
+.linksContainer a:hover {
+    background-position: 0 100%;
+}
+.Greetings {
+    /* position:absolute; */
+    padding-top: 5%;
+    padding-bottom:15%;
+    transition:1000ms ease-in-out;
+    opacity:0.8;
+}
+.Warning {
+    transition:1500ms ease-out 3000ms;
+    opacity:0.8;
+    transform:translateX(50px);
+}
+.Warning2 {
+    transition:1500ms ease-out 4500ms;
+    padding-top:100px;
+    opacity:0.8;
+    transform:translateX(-50px);
+    padding-bottom: 100px;
+}
+.contactMail {
+    overflow: hidden;
+    list-style: none;
+    background: linear-gradient(to right, #2bb7b2, #2bb7b2 50%, rgb(255, 255, 255) 50%);
+    font-family: 'Roboto';
+    font-weight: bold;
+    transition: background-position 275ms ease;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    display: inline-block;
+    position: relative;
+    opacity:1;
+    transition: 1000ms ease-out 5600ms;
+    text-decoration: none;
+    color:white;
+    animation: mailanim 4s;
+    animation-delay: 6s;
+    animation-iteration-count: 1;
+}
+.BonfireContainer   {
+    opacity: 0.7;
+    transition:3s ease-in-out 200ms;
+    transform: scale(0.8);
+    position: relative;
+    display: inline-block;
+}
+.BonfireContainer::after {
+    content:"";
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    box-shadow: inset 0px 0px 600px #040c14;
+}
+.Bonfire {
+    display:block;
+}
+.Overlay {
+    position: absolute;
+    transform: scale(1.05);
+    right: 0;
+    left: 0;
+    width:770px;
+    height:370px;
+}
+
+@keyframes mailanim {
+    0% {background-position: -100% 0%;}
+    50% {background-position:100% 0%;}
+    100% {background-position: 100% 0%;}
+}
