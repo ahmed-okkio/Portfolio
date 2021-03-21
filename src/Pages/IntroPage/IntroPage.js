@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import classes from './WelcomeText.module.css'
-import DoubleArrow from '../../../Logos/DoubleArrow.svg';
+import classes from './IntroPage.module.css'
+import DoubleArrow from '../../Logos/DoubleArrow.svg';
+import Intro from '../../Assets/Intro.mp4';
 
 
 const WelcomeText = () => {
@@ -38,6 +39,15 @@ const WelcomeText = () => {
                 <span className={classes.WelcomeText} style={textStyle}>{text}</span>
             </div>
             <img className={classes.DoubleArrow} style={arrowStyle} src={DoubleArrow}/>
+            <div className={classes.IntroContainer}>
+                <div className={classes.IntroContainerTwo}>
+                    <video className={classes.Intro} autoPlay loop muted>
+                            <source src={Intro} type="video/mp4">
+                            </source>
+                    </video>
+                </div>
+            </div>
+            
         </>
     )
 }

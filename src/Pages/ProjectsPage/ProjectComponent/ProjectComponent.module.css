@@ -69,12 +69,22 @@
 .VisibleContainer:hover img {
     transform: scale(1.06);
 }
+.ProjectName {
+    padding-top:30px;
+    /* padding-bottom: 5px; */
+    color:white;
+    font-size: 22px;
+    font-family:'ITC Avant Garde Gothic Std Medium';
+    
+}
 .ProjectDescription {
     width: 640px; /*calc here*/
     height: 360px; /*calc here*/
     color: rgb(252, 252, 252);
-    font-family: 'Roboto';
-    /* text-align: justify; */
+    font-size:16px;
+    font-family:'ITC Avant Garde Gothic Std Book';
+    line-height:1.5;
+    text-align: justify;
     margin:0;
     margin-top:10px;
 }

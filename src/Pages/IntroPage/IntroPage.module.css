@@ -1,0 +1,67 @@
+.WelcomeTextContainer {
+    position: absolute;
+    width:100%;
+    top: 25%;
+   z-index: 2;
+}
+
+.WelcomeText {
+    color:white;
+    opacity: 0.1;
+    font-size: 80px;
+    transition: 600ms ease-out;
+}
+.DoubleArrow {
+    transition: 600ms ease-out 800ms;
+    width: calc(5vw + 5vh);
+    margin-bottom:calc(40vh - (5vw + 5vh) - 64px);
+    animation: arrowdown 1s infinite ease-in-out;
+    opacity:0;
+    margin-top:calc(80vh - (5vw + 5vh) - 64px);
+    fill: white;
+    z-index: 5;
+    position: relative;
+}
+.IntroContainer {
+    max-height:var(--realHeight);
+    z-index: 1;
+    padding-top:64px;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    position: absolute;
+    display: flex;    
+    /* display: inline-block; */
+}
+.IntroContainerTwo {
+    height:90%;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    
+    
+    overflow: hidden;
+}
+.Intro {
+    /* margin-top: -5%; */
+    opacity:0.5;
+    height:100%;
+    width:100%;
+    object-fit: cover;
+    overflow: hidden;
+    /* width:100%; */
+    box-sizing: border-box;
+    /* border-top: 1px #7e7e7e solid;
+    border-bottom: 1px #7e7e7e solid; */
+}
+
+@keyframes arrowdown {
+    0% {transform:translateY(0);}
+    50% {transform: translateY(8px);}
+}
+

@@ -1,5 +1,6 @@
 html,body {
   width: 100%;
+  background-color: #040c14;
   height: 100%;
   margin: 0;
   position: absolute;
@@ -16,7 +17,7 @@ code {
 }
 #root{
   width: 100%;
-  height:calc(100% - 60px);
+  height:var(--realHeight);
 }
 
 .Typewriter__cursor {
@@ -40,4 +41,13 @@ code {
   font-style: normal;
   font-weight: normal;
   src: local('ITC Avant Garde Gothic Std Book'), url('./Fonts/ITCAvantGardeStdXLt.woff') format('woff');
+}
+@font-face {
+  font-family: 'ITC Avant Garde Gothic Std Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('ITC Avant Garde Gothic Std Bold'), url('./Fonts/ITCAvantGardeStdBold.woff') format('woff');
+}
+:root {
+  --realHeight: calc(100vh - 64px);
 }

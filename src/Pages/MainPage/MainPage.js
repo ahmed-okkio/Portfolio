@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import classes from './MainPage.module.css';
-import WelcomeText from './Components/WelcomeText';
+import IntroPage from '../IntroPage/IntroPage';
+import BackgroundPage from '../BackgroundPage/BackgroundPage';
 import SkillsPage from '../SkillsPage/SkillsPage';
 import ProjectsContainer from '../ProjectsPage/ProjectsContainer';
 import FinalPage from '../FinalPage/FinalPage';
@@ -16,12 +17,15 @@ const MainPage = () =>
     useEffect(()=>{
         window.addEventListener("scroll", handleScroll);
         return () => window.removeEventListener("scroll", handleScroll);
-    },[]);
+    },[]);  
     return(
         <>
             <div className={classes.mainBody}>
                 <div className={classes.Page} onClick={getScrollOffset}>
-                    <WelcomeText/>
+                    <IntroPage/>
+                </div>
+                <div className={classes.Page}>
+                    <BackgroundPage scrollOffset={scrollOffset}/>
                 </div>
                 <div className={classes.Page}>
                     <SkillsPage scrollOffset={scrollOffset}/>
@@ -32,6 +36,7 @@ const MainPage = () =>
                 <div className={classes.Page}>
                     <FinalPage scrollOffset={scrollOffset}/>
                 </div>
+        
             </div>
         </>
     )

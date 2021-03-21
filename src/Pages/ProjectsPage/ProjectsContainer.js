@@ -8,9 +8,10 @@ import SudokuPreview from '../../Assets/Sudoku.png';
 const ProjectsContainer = (props) => {
     const [loadStyle,setLoadStyle] = useState({opacity:0,transform: `translateY(${50}px)`});
 
-    var desc1 = `This is a test project with a testing in the test 
-    location that tests how to test. We continue to do our testing 
-    until the desired result is found`
+    var desc1 = `This is an online Sudoku puzzle game with an intuitive UI,
+     authentication and a leader board built using the MERN stack. It is a 
+     responsive single page application fully designed and developed by me 
+     from the ground up. A second version of this site was made using Firebase.`
     var link = "https://sudoku-mern.herokuapp.com/#/"
 
 
@@ -38,8 +39,9 @@ const ProjectsContainer = (props) => {
         <>
         <div className={classes.Header}  id="ProjectsHeader" style={loadStyle}>FEATURED PROJECTS</div>
         <div className={classes.ProjectsContainer} style={loadStyle}>
-            <ProjectComponent projectName="Sudoku MERN" desc={desc1} preview={SudokuPreview} link={link}/>
-            <ProjectComponent projectName="Test" desc={"test2"} preview={"test"}/> 
+            <ProjectComponent projectName="SUDOKU MERN" desc={desc1} preview={SudokuPreview} link={link}/>
+            <ProjectComponent projectName="SUDOKU MERN" desc={desc1} preview={SudokuPreview} link={link}/>
+            {/* <ProjectComponent projectName="Test" desc={"test2"} preview={"test"}/>  */}
         </div>
         </>
     )

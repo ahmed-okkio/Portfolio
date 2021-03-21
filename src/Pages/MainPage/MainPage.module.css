@@ -1,11 +1,10 @@
 .mainBody  {
     width: 100%;
-    margin-top:60px;
     height: 100%;   
     background-color: #040c14;
 }
 .Page {
     min-height: auto;
-    max-height: calc(100vh - 64px);
+    max-height: var(--realHeight);
     background-color: #040c14;
 }

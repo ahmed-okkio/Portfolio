@@ -10,9 +10,9 @@ const ProjectComponent = (props) => {
                     <div className={classes.imageContainer}>
                         <img src={props.preview}/>
                     </div>
-                </div>
+                </div>  
             </a>
-            <div className={classes.projectName}>{props.projectName}</div>
+            <div className={classes.ProjectName}>{props.projectName}</div>
             <div className={classes.ProjectDescription}>
                 {props.desc}
             </div>

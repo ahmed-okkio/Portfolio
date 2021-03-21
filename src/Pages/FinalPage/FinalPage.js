@@ -54,7 +54,9 @@ const FinalPage = (props) => {
                         DESIGNED& <br/>DEVELOPED BY <br/> <div className={classes.Name}>AHMED HAMAD <br/>2021</div>
                     </div>
                 </div>
-
+                <div className={classes.Version}>
+                    Version 1.0 <br/>Last updated 03/21/2021
+                </div>
                 <ul className={classes.linksContainer}>
                     <a href="https://github.com/ahmedhamad-okkio/" target="_blank">GITHUB</a>
                     <a href="https://www.linkedin.com/in/ahmedhamad-okkio/" target="_blank">LINKEDIN</a>

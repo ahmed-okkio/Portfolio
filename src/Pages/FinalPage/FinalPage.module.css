@@ -97,12 +97,11 @@
     display: inline-block;
     position: relative;
     opacity:1;
-    transition: 1000ms ease-out 5600ms;
-    text-decoration: none;
+    transition: 1000ms ease-out;
     color:white;
-    animation: mailanim 4s;
-    animation-delay: 6s;
-    animation-iteration-count: 1;
+}
+.contactMail:hover {
+
 }
 .BonfireContainer   {
     opacity: 0.7;
@@ -132,8 +131,21 @@
     height:370px;
 }
 
+.Version {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left:2%;
+    text-align: justify;
+    font-size: 12px;
+    font-family: 'ITC Avant Garde Gothic Std Bold';
+    color: rgba(255, 255, 255, 0.726);
+}
+
 @keyframes mailanim {
     0% {background-position: -100% 0%;}
     50% {background-position:100% 0%;}
-    100% {background-position: 100% 0%;}
+    100% {background-position: -100% 0%;}
+    
 }
