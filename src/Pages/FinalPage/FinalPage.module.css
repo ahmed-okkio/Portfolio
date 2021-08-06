@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap');
 .FinalPageContainer {
-    height:150vh;
+    height:auto;
+    display: flex;
+    margin:0;
+    padding:0;
+    bottom:0;
+    align-items: center;
+    flex-direction: column;
     position: relative;
     background-color: #040c14;
     color:#d3d3d3c2;
@@ -71,24 +77,38 @@
     opacity:0.8;
 }
 .Warning {
+    width: 100%;
     transition:1500ms ease-out 3000ms;
     opacity:0.8;
     transform:translateX(50px);
 }
 .Warning2 {
+    margin:0;
+    padding:0;
+    width: 100%;
     transition:1500ms ease-out 4500ms;
     padding-top:100px;
     opacity:0.8;
     transform:translateX(-50px);
     padding-bottom: 100px;
 }
+.FinalText{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding:0;
+    margin:0;
+    top:0;
+    bottom:0;
+    flex-wrap:wrap;
+    width: 100%;
+    height:inherit;
+}
 .contactMail {
     overflow: hidden;
     list-style: none;
-    background: linear-gradient(to right, #2bb7b2, #2bb7b2 50%, rgb(255, 255, 255) 50%);
-    font-family: 'Roboto';
-    font-weight: bold;
-    transition: background-position 275ms ease;
+    background: linear-gradient(to right, #38dad4, #38dad4 50%, rgb(255, 255, 255) 50%);
+    /* transition:  background-position 275ms ease; */
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -96,12 +116,20 @@
     background-position: 100%;
     display: inline-block;
     position: relative;
-    opacity:1;
-    transition: 1000ms ease-out;
+    text-decoration:none;
     color:white;
+    font-family: 'Roboto';
+    font-weight: bold;
+    opacity:1;
+    transition: 1000ms ease-out 6000ms;
+    padding-bottom: 50px;
+    margin-bottom: 20%;
+    margin-right: auto;
+    margin-left: auto;
+    width: auto;
 }
 .contactMail:hover {
-
+    background-position: 0 100%;
 }
 .BonfireContainer   {
     opacity: 0.7;

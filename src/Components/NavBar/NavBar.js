@@ -21,9 +21,9 @@ const NavBar = () =>
 
                 <div className={classes.links}>
                     <ul className={classes.linksContainer}>
-                        <a href="https://github.com/ahmedhamad-okkio/" target="_blank"><img src={Github} className={classes.githubLogo}/></a>
-                        <a href="https://www.linkedin.com/in/ahmedhamad-okkio/" target="_blank"><img src={Linkedin} className={classes.linkedinLogo}/></a>
-                        <a href="mailto:contactokkio@gmail.com"  target="_blank"><img src={Mail} className={classes.mailLogo}/></a>
+                        <a href="https://github.com/ahmedhamad-okkio/" target="_blank" rel="noreferrer"><img src={Github} className={classes.githubLogo}/></a>
+                        <a href="https://www.linkedin.com/in/ahmedhamad-okkio/" target="_blank" rel="noreferrer"><img src={Linkedin} className={classes.linkedinLogo}/></a>
+                        <a href="mailto:contactokkio@gmail.com"  target="_blank" rel="noreferrer"><img src={Mail} className={classes.mailLogo}/></a>
                     </ul>
                 </div>
             </div>

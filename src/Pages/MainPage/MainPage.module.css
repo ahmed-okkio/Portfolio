@@ -5,6 +5,6 @@
 }
 .Page {
     min-height: auto;
-    max-height: var(--realHeight);
+    /* max-height: var(--realHeight); */
     background-color: #040c14;
 }

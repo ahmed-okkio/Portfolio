@@ -40,7 +40,7 @@ const ProjectsContainer = (props) => {
         <div className={classes.Header}  id="ProjectsHeader" style={loadStyle}>FEATURED PROJECTS</div>
         <div className={classes.ProjectsContainer} style={loadStyle}>
             <ProjectComponent projectName="SUDOKU MERN" desc={desc1} preview={SudokuPreview} link={link}/>
-            <ProjectComponent projectName="SUDOKU MERN" desc={desc1} preview={SudokuPreview} link={link}/>
+            {/* <ProjectComponent projectName="SUDOKU MERN" desc={desc1} preview={SudokuPreview} link={link}/> */}
             {/* <ProjectComponent projectName="Test" desc={"test2"} preview={"test"}/>  */}
         </div>
         </>
