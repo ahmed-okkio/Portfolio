@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.d3a4236f.chunk.css",
-    "main.js": "/Portfolio/static/js/main.988d68dd.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.988d68dd.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.e91ae2aa.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.e91ae2aa.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.59978a05.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.59978a05.js.map",
     "static/js/2.f69c5921.chunk.js": "/Portfolio/static/js/2.f69c5921.chunk.js",
@@ -20,12 +20,13 @@
     "static/media/Linkedin.27a3f479.svg": "/Portfolio/static/media/Linkedin.27a3f479.svg",
     "static/media/Mail.a7bdedcb.svg": "/Portfolio/static/media/Mail.a7bdedcb.svg",
     "static/media/Sudoku.1f2180e0.png": "/Portfolio/static/media/Sudoku.1f2180e0.png",
-    "static/media/VignetteOverlay.92a87f03.png": "/Portfolio/static/media/VignetteOverlay.92a87f03.png"
+    "static/media/VignetteOverlay.92a87f03.png": "/Portfolio/static/media/VignetteOverlay.92a87f03.png",
+    "static/media/WokeAndShootThumb.29bf95bf.png": "/Portfolio/static/media/WokeAndShootThumb.29bf95bf.png"
   },
   "entrypoints": [
     "static/js/runtime-main.59978a05.js",
     "static/js/2.f69c5921.chunk.js",
     "static/css/main.d3a4236f.chunk.css",
-    "static/js/main.988d68dd.chunk.js"
+    "static/js/main.e91ae2aa.chunk.js"
   ]
 }
