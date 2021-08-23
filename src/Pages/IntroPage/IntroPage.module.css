@@ -11,6 +11,10 @@
     font-size: 80px;
     transition: 600ms ease-out;
 }
+.UnavialableText {
+    color:white;
+    font-size: 80px;
+}
 .DoubleArrow {
     transition: 600ms ease-out 800ms;
     width: calc(5vw + 5vh);
