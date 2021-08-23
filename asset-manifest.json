@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.75398ee1.chunk.css",
-    "main.js": "/static/js/main.fa714255.chunk.js",
-    "main.js.map": "/static/js/main.fa714255.chunk.js.map",
+    "main.css": "/static/css/main.43c6b764.chunk.css",
+    "main.js": "/static/js/main.0fb314ad.chunk.js",
+    "main.js.map": "/static/js/main.0fb314ad.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.dab9aa4e.js",
     "runtime-main.js.map": "/static/js/runtime-main.dab9aa4e.js.map",
     "static/js/2.5cc9f2ca.chunk.js": "/static/js/2.5cc9f2ca.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.5022c9f9.chunk.js": "/static/js/3.5022c9f9.chunk.js",
     "static/js/3.5022c9f9.chunk.js.map": "/static/js/3.5022c9f9.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.75398ee1.chunk.css.map": "/static/css/main.75398ee1.chunk.css.map",
+    "static/css/main.43c6b764.chunk.css.map": "/static/css/main.43c6b764.chunk.css.map",
     "static/js/2.5cc9f2ca.chunk.js.LICENSE.txt": "/static/js/2.5cc9f2ca.chunk.js.LICENSE.txt",
     "static/media/Bonfire.da2d275a.mp4": "/static/media/Bonfire.da2d275a.mp4",
     "static/media/DoubleArrow.44c452e4.svg": "/static/media/DoubleArrow.44c452e4.svg",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.dab9aa4e.js",
     "static/js/2.5cc9f2ca.chunk.js",
-    "static/css/main.75398ee1.chunk.css",
-    "static/js/main.fa714255.chunk.js"
+    "static/css/main.43c6b764.chunk.css",
+    "static/js/main.0fb314ad.chunk.js"
   ]
 }
