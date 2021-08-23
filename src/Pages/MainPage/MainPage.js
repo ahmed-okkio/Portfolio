@@ -4,6 +4,7 @@ import IntroPage from '../IntroPage/IntroPage';
 import BackgroundPage from '../BackgroundPage/BackgroundPage';
 import SkillsPage from '../SkillsPage/SkillsPage';
 import ProjectsContainer from '../ProjectsPage/ProjectsContainer';
+import GameJamContainer from '../GameJams/GameJamContainer';
 import FinalPage from '../FinalPage/FinalPage';
 
 
@@ -32,6 +33,9 @@ const MainPage = () =>
                 </div>
                 <div className={classes.Page}>
                     <ProjectsContainer scrollOffset={scrollOffset}/>
+                </div>
+                <div className={classes.Page}>
+                    <GameJamContainer scrollOffset={scrollOffset}/>
                 </div>
                 <div className={classes.Page}>
                     <FinalPage scrollOffset={scrollOffset}/>
