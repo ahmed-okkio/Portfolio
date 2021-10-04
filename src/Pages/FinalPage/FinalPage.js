@@ -63,7 +63,7 @@ const FinalPage = (props) => {
                     </div>
                 </div>
                 <div className={classes.Version}>
-                    Version 1.0 <br/>Last updated 21/03/2021
+                    <br/>Last updated 04/10/2021
                 </div>
                 <ul className={classes.linksContainer}>
                     <a href="https://github.com/ahmedhamad-okkio/" target="_blank" rel="noreferrer">GITHUB</a>

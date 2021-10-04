@@ -36,10 +36,10 @@ const BackgroundPage = (props) => {
                 I'm actively looking for opportunities in the gaming industry to kick start my career, 
                  gain valuable professional experience and to work with fantastic like minded people.
                 I love technology and understanding how things work which has me always tinkering with new concepts and ideas.
-                I look to always create quality creations by aligning my goals with world standards and aiming to match or exceed them.
-                I have have a mild interest in video production and editing with years of previous experience
-                both personally and partially professionally.
-                I am also a huge fan of the esports world as it combines teamwork and individual skill with video games. I enjoy competing
+                I look to always create quality creations by setting high standards and aiming to match or exceed them.
+                I'm specifically working on gameplay programming and solving the problems the stand in the face of fun and creativity.
+                By recreating some of the most popular and fun gameplay mechanics from scratch, I look to understand and cement my experience in this part of the industry.
+                I am also a huge fan of the esports world because it combines teamwork and individual skill with video games. I enjoy competing
                 in online and local tournaments as well as hosting and managing tournaments for various online and local communities.
                 <br/>
                 <br/>
