@@ -42,8 +42,8 @@ const WelcomeText = () => {
             <div className={classes.IntroContainer}>
                 <div className={classes.IntroContainerTwo}>
                     <video className={classes.Intro} autoPlay loop muted>
-                            {/* <source src={Intro} type="video/mp4">
-                            </source> */}
+                            <source src={Intro} /*Video is */type="video/mp4">
+                            </source>
                     </video>
                 </div>
             </div>
