@@ -6,11 +6,11 @@ function App() {
   var Width = window.innerWidth;
   return (
     <div className={classes.App}>
-      {Width < 300 
+      {Width < 360 
             ?<div className={classes.mainBody}>    
                 <h1 className={classes.UnavialableText} >Sorry!</h1>
-                <p className={classes.UnavialableText} style={{fontSize:`${5}vw`}}>My portfolio is not yet compatible with your screen size,
-                 please try again on a desktop or laptop or contact me at contactokkio@gmail.com</p>
+                <p className={classes.UnavialableText} style={{fontSize:`${5}vw`}}>My portfolio is not compatible with your screen size,
+                 please try again on a larger device or contact me at contactokkio@gmail.com</p>
             </div>
             :
             <>

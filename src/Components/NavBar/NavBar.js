@@ -8,9 +8,7 @@ import Mail from '../../Logos/Mail.svg';
 const NavBar = () =>
 {
     return(
-        <>
-            <div className={classes.navBarCollider}></div>
-
+        <div className={classes.navBarCollider}>
             <div className={classes.navBody}>
                 <div className={classes.displayName}>
                     <ul className={classes.nameContainer}>
@@ -27,7 +25,7 @@ const NavBar = () =>
                     </ul>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 export default NavBar;
