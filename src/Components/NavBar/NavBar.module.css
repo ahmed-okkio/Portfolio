@@ -1,4 +1,5 @@
 .navBody {
+    /* overflow: hidden; */
     top:0;
     display:flex;
     position: absolute;
@@ -18,11 +19,15 @@
 }
 
 .displayName {
-    width:100%;
+    width:50%;
+    margin-left:5%;
 }
 .nameContainer {
     margin:0;
+    padding:0;
+    /* width:50%; */
     display: flex;  
+    /* justify-content: center; */
     font-family: 'ITC Avant Garde Gothic Std Book';
     list-style: none;
     font-size: 3em;
@@ -43,17 +48,29 @@
 
 
 .links {
-    margin-left: auto;
-    margin-right:2%;
+    /* margin-left: auto; */
+    /* margin-right:2%; */
+    width: 50%;
 }
 .linksContainer {
     display: flex;
     margin:0;
-    width:300px;
+    margin-right: 10%;
+    /* width:50%; */
     min-width: 100px;
-   justify-content: space-evenly;
+    justify-content:end;
     list-style: none;
+    padding:0;
 }
 .linksContainer img{
-    width: 45px;
+    width: 9vw;
+    max-width: 50px;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+@media screen and (max-width: 708px) {
+    .nameContainer {
+        font-size: 7vw;
+    }
+
 }

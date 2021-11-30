@@ -7,7 +7,9 @@
     padding-bottom:100px;
 }
 .skillsContainer {
-    width: 70%;
+     /* overflow: hidden; */
+    /* width: 70%; */
+    max-width: 900px;
     transition: 400ms ease-in-out 200ms;
     font-family: 'ITC Avant Garde Gothic Std Medium';
     font-size: 18px;
@@ -26,6 +28,14 @@
     font-size: 20px;
     font-family: 'ITC Avant Garde Gothic Std XL';
 }
+@media screen and (max-width: 600px) {
+    .skillsContainer {
+      font-size: 3vw;
+    }
+    .skillsContainer ul {
+        font-size: 4vw;
+    }
+  }
 .skillsContainer li{
     padding:3px;
     padding-left:0;      

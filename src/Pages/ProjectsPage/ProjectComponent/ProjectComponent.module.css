@@ -1,27 +1,30 @@
 .ProjectContainer {
-    width: 50%;
     height:100%;
     margin-top: 10%;
+    padding-left: 20px;
+    padding-right:20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-content: center;
+    margin-bottom:auto;
 }
 .VisibleContainer {
-    width: 640px; /*calc here*/
-    height: 365px; /*calc here*/
+    width: calc(640px*var(--contentToScreenRatio));
+    height: calc(365px*var(--contentToScreenRatio));
     
     display: flex;
     justify-content: center;
 }
 .animatedBorder {
     /* top:-2px; */
-    width: 640px; /*calc here*/
-    height: 365px; /*calc here*/
+    width: calc(640px*var(--contentToScreenRatio));
+    height: calc(365px*var(--contentToScreenRatio));
     transition: 250ms ease-out;
     border: 1px #7e7e7e solid;
-    position: absolute;
+    /* position: absolute; */
     display: block;
+    position: absolute;
     clip-path: polygon(
         0% var(--notchSize), 
         var(--notchSize) 0%, 
@@ -46,8 +49,8 @@
       );
 }
 .VisibleOutline {
-    width: 640px; /*calc here*/
-    height: 360px; /*calc here*/
+    width: calc(640px*var(--contentToScreenRatio));
+    height: calc(360px*var(--contentToScreenRatio));
     border: 1px white solid;
     
 }
@@ -55,8 +58,9 @@
     margin-top:auto;
     margin-bottom: auto;
     overflow: hidden;
-    width: 630px; /*calc here*/
-    height: 354.38px; /*calc here*/
+   
+    width: calc(630px*var(--contentToScreenRatio));
+    height: calc(354.38px*var(--contentToScreenRatio));
 }
 .VisibleContainer img {
     width: inherit; /*calc here*/
@@ -78,8 +82,7 @@
     
 }
 .ProjectDescription {
-    width: 640px; /*calc here*/
-    height: 360px; /*calc here*/
+    width: calc(640px*var(--contentToScreenRatio));
     color: rgb(252, 252, 252);
     font-size:16px;
     font-family:'ITC Avant Garde Gothic Std Book';

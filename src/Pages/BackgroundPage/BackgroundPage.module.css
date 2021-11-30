@@ -1,8 +1,10 @@
 .BackgroundContainer {
     border: 1px #7e7e7e59 solid;
     transition: 400ms ease-in-out 0s;
-    width:50%;
-    max-width: 800px;
+    /* aspect-ratio: 9 / 10; */
+    width:auto;
+    max-width: 708px;
+    height:auto;
     background-color: #00000054;;
     padding:10px;
     padding-bottom: 50px;
@@ -24,8 +26,17 @@
     text-align: justify;
     margin-left: auto;
     line-height: 1.5;
-    font-size:18px;
+    font-size:1.1em;
     margin-right: auto;
     transition: 400ms ease-in-out 200ms;
     font-family: 'ITC Avant Garde Gothic Std Book';
+}
+@media screen and (max-width: 708px) {
+    .BackgroundContainer{
+        margin-right: 5vw;
+        margin-left: 5vw;
+    }
+    .Background {
+        font-size:1em;
+    }
 }
