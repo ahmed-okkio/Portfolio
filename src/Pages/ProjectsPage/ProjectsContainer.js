@@ -21,7 +21,7 @@ const ProjectsContainer = (props) => {
      This is my first project on Unreal Engine and with C++, therefore I used this as a large scale
      sandbox experience to familiarize myself with the engine's code base and to understand
      new and challenging concepts such as networking and custom movement. It is currently still in development
-     and is playable but only about 55% complete.`
+     and is playable but only about 65% complete.`
     var link2 = "https://github.com/ahmedhamad-okkio/WokeAndShoot"
 
 

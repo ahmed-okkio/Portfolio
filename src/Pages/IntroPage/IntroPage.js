@@ -12,7 +12,7 @@ const WelcomeText = () => {
     const welcomeAnimation = (text) =>{
         setText(text)
         setTextStyle({
-            fontSize:`${80}px`,
+            fontSize:`${4}em`,
             opacity:1
         });
         setTimeout(()=>{
@@ -41,10 +41,10 @@ const WelcomeText = () => {
             <img className={classes.DoubleArrow} style={arrowStyle} src={DoubleArrow}/>
             <div className={classes.IntroContainer}>
                 <div className={classes.IntroContainerTwo}>
-                    <video className={classes.Intro} autoPlay loop muted>
-                            {/* <source src={Intro} type="video/mp4">
-                            </source> */}
-                    </video>
+                    {/* <video className={classes.Intro} autoPlay loop muted> */}
+                            {/* <source src={Intro}  type="video/mp4"> */}
+                            {/* </source> */}
+                    {/* </video> */}
                 </div>
             </div>
             

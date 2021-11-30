@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './ProjectComponent.module.css';
+import classes from '../../ProjectsPage/ProjectComponent/ProjectComponent.module.css';
 
 const ProjectComponent = (props) => {
     return(
