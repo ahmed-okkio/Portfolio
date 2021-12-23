@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import classes from './IntroPage.module.css'
-import DoubleArrow from '../../Logos/DoubleArrow.svg';
-import Intro from '../../Assets/Intro.mp4';
+import DoubleArrow from '../../../../Logos/DoubleArrow.svg';
+import Intro from '../../../../Assets/Intro.mp4';
 
 
 const WelcomeText = () => {

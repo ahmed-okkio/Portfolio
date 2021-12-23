@@ -1,8 +1,8 @@
 import React, {useEffect,useState} from 'react';
 import classes from './ProjectsContainer.module.css';
 import ProjectComponent from './ProjectComponent/ProjectComponent';
-import SudokuPreview from '../../Assets/Sudoku.png';
-import WnSPreview from '../../Assets/WokeAndShootThumb.png';
+import SudokuPreview from '../../../../Assets/Sudoku.png';
+import WnSPreview from '../../../../Assets/WokeAndShootThumb.png';
 
 
 
@@ -16,12 +16,12 @@ const ProjectsContainer = (props) => {
      ,<br/>,<i style={{fontSize:`${12}px`} }>~ Site may take up to 20 seconds to load</i>]
     var link1 = "https://sudoku-mern.herokuapp.com/#/"
 
-    var desc2 = `WnS is an online multiplayer fast paced FPS game built
-     with Unreal Engine 4 primarily in C++ with the assistance of blueprints.
-     This is my first project on Unreal Engine and with C++, therefore I used this as a large scale
-     sandbox experience to familiarize myself with the engine's code base and to understand
-     new and challenging concepts such as networking and custom movement. It is currently still in development
-     and is playable but only about 65% complete.`
+    var desc2 = [`WnS is an online multiplayer fast paced FPS game built
+     on Unreal Engine 4 primarily in C++ with the assistance of blueprints.
+     This is my largest continuing project allowing me to take on challenging 
+     concepts such as networking custom player movement, movement prediction,
+     roll back validatation and production experiences like testing, shipping and patching.` ,<br/>,<br/>, 
+     `The game has already met its initial project scope, but still recieves intermittent patching.`]
     var link2 = "https://github.com/ahmedhamad-okkio/WokeAndShoot"
 
 

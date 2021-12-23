@@ -6,7 +6,7 @@ import WokeAndShoot from '../Pages/DetailedPages/WokeAndShoot/WokeAndShoot'
 const PageHandler = () =>
 {
     
-    let Page = 'MainPage';
+    let Page = 'WokeAndShoot';
     switch (Page) {
         case 'MainPage':
             return  <MainPage/>;

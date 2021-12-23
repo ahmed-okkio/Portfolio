@@ -1,7 +1,7 @@
 import React, {useState,useEffect} from 'react';
 import classes from './FinalPage.module.css';
-import Bonfire from '../../Assets/Bonfire.mp4';
-import Overlay from '../../Assets/VignetteOverlay.png';
+import Bonfire from '../../../../Assets/Bonfire.mp4';
+import Overlay from '../../../../Assets/VignetteOverlay.png';
 
 
 
