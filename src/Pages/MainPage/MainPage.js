@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React from 'react';
 import classes from './MainPage.module.css';
 import IntroPage from './Main-SubPages/IntroPage/IntroPage';
 import BackgroundPage from './Main-SubPages/BackgroundPage/BackgroundPage';
@@ -8,37 +8,28 @@ import GameJamContainer from './Main-SubPages/GameJams/GameJamContainer';
 import FinalPage from './Main-SubPages/FinalPage/FinalPage';
 
 
-const MainPage = () =>
+const MainPage = (props) =>
 {
-    const [scrollOffset, setScrollOffset] = useState(0);
-    const handleScroll = () => setScrollOffset(window.pageYOffset);
-    const getScrollOffset = () =>{
-        console.log(scrollOffset);
-    }
-    useEffect(()=>{
-        window.addEventListener("scroll", handleScroll);
-        return () => window.removeEventListener("scroll", handleScroll);
-    },[]);  
     return(
         <>
             <div className={classes.mainBody}>
-                <div className={classes.Page} onClick={getScrollOffset}>
+                <div className={classes.Page} >
                     <IntroPage/>
                 </div>
                 <div className={classes.Page}>
-                    <BackgroundPage scrollOffset={scrollOffset}/>
+                    <BackgroundPage scrollOffset={props.scrollOffset}/>
                 </div>
                 <div className={classes.Page}>
-                    <SkillsPage scrollOffset={scrollOffset}/>
+                    <SkillsPage scrollOffset={props.scrollOffset}/>
                 </div>
                 <div className={classes.Page}>
-                    <ProjectsContainer scrollOffset={scrollOffset}/>
+                    <ProjectsContainer scrollOffset={props.scrollOffset}/>
                 </div>
                 <div className={classes.Page}>
-                    <GameJamContainer scrollOffset={scrollOffset}/>
+                    <GameJamContainer scrollOffset={props.scrollOffset}/>
                 </div>
                 <div className={classes.Page}>
-                    <FinalPage scrollOffset={scrollOffset}/>
+                    <FinalPage scrollOffset={props.scrollOffset}/>
                 </div>
         
             </div>

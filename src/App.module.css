@@ -3,7 +3,39 @@
   width: 100%;
   height: 100%;
 }
+.floatStars{
+  position : fixed;
+  width:100%;
+  height:var(--fullHeight);
+  z-index:-1;
+  /* opacity:0; */
+  transition: 500ms ease;
+}
 .UnavialableText {
   color:white;
   font-size: 80px;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 2px;
+  height:10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #040c14;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(73, 73, 73);
+  border-radius: 25px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(65, 63, 63);
+}
+:root {
+  --fullHeight: 0px;
 }

@@ -2,6 +2,7 @@ import React, {useState,useEffect} from 'react';
 import classes from './FinalPage.module.css';
 import Bonfire from '../../../../Assets/Bonfire.mp4';
 import Overlay from '../../../../Assets/VignetteOverlay.png';
+import Footer from './Footer';
 
 
 
@@ -24,7 +25,6 @@ const FinalPage = (props) => {
             
             if (node.getBoundingClientRect().top < 1000 && loadStyle.opacity == 0)
             {
-                console.log(node.getBoundingClientRect());
                 setLoadStyle({transform: `translateX(${0}px)`});
                 setOnTransitionEndStyle({transform: `translateX(${0}px)`});
                 setLoadStyle1({});
@@ -33,7 +33,6 @@ const FinalPage = (props) => {
         }
     }
     const onTransitionEndUpdateStyle = () =>{
-        console.log("Ran correctly");
         setOnTransitionEndStyle({transition: `background-position ${275}ms ease`})
     }
     useEffect(()=>{
@@ -54,23 +53,7 @@ const FinalPage = (props) => {
                 <div className={classes.Warning2} style={loadStyle2}>...Get the right person to help solve them.</div>
                 <a  href="mailto:contactokkio@gmail.com"  target="_blank" rel="noreferrer" onTransitionEnd={onTransitionEndUpdateStyle} style={onTransitionEndStyle}className={classes.contactMail}>contactokkio@gmail.com</a>
             </div>
-            <div className={classes.Footer}>
-                <div className={classes.Credits}>
-                    <div className={classes.whiteBar}></div>
-                    
-                    <div>
-                        DESIGNED& <br/>DEVELOPED BY <br/> <div className={classes.Name}>AHMED HAMAD <br/>2021</div>
-                    </div>
-                </div>
-                <div className={classes.Version}>
-                    <br/>Last updated 04/10/2021
-                </div>
-                <ul className={classes.linksContainer}>
-                    <a href="https://github.com/ahmedhamad-okkio/" target="_blank" rel="noreferrer">GITHUB</a>
-                    <a href="https://www.linkedin.com/in/ahmedhamad-okkio/" target="_blank" rel="noreferrer">LINKEDIN</a>
-                    <a href="mailto:contactokkio@gmail.com"  target="_blank" rel="noreferrer">MAIL</a>
-                </ul>
-            </div>
+            <Footer></Footer>
     </div>
     )
 

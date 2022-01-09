@@ -5,45 +5,239 @@
     margin-left: auto;
     padding-left: 20px;
     padding-right:20px;
+    padding-top: 50px;
+    padding-bottom: 20px;
     width: 70%;
     height:auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
-    margin-bottom:auto;
+    align-content: justify;
+    margin-bottom:20vh;
+    transition: 400ms ease-in-out 0s;
 }
-
+.Container2 {
+    height:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: justify;
+    /* margin-bottom:20vh; */
+    transition: 400ms ease-in-out 0s;
+}
+.FeatureContainer {
+    /* border: 1px #7e7e7e59 solid; */
+    /* background-color: #040c14;; */
+    padding-bottom: 50px;
+    padding-top: 100px;
+    height:100%;
+    width: 80%;
+    max-width: 1080px;
+    margin-top: 1%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 20px;
+    padding-right:20px;
+    padding-bottom:50px;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    /* padding-bottom:30vh; */
+}
+.SourceContainer {
+    height:100%;
+    width:95%;
+    /* margin-top: 2vh; */
+    margin-right: auto;
+    margin-left: auto;
+    /* background-color: #040c14; */
+    /* width: 80%; */
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    /* padding-bottom:30vh; */
+}
+.ProjectTitleContainer {
+    border: 1px #7e7e7e59 solid;
+    transition: 400ms ease-in-out 0s;
+    /* aspect-ratio: 9 / 10; */
+    width:auto;
+    max-width: 808px;
+    height:auto;
+    background-color: #00000054;;
+    padding:10px;
+    padding-bottom: 50px;
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom:50px;
+}
 .ProjectTitle{
     color:white;
     transition: 400ms ease-in-out 0s;
-    font-size: 35px;
+    font-size: 2.5em;
     font-family:'ITC Avant Garde Gothic Std Book';
-    padding-bottom:20vh;
+    padding-top:40px;
+    padding-bottom:50px;
 }
 .ProjectDescription{
-    color: rgb(252, 252, 252);
-    font-size:18px;
+    color: rgba(252, 252, 252, 0.90);
+    font-size:16px;
     font-family:'ITC Avant Garde Gothic Std Book';
     line-height:1.5;
     text-align: justify;
     margin:0;
+    margin-left:auto;
+    margin-right: auto;
+    width:90%;
     margin-top:10px;
-    margin-bottom: 10vh;
-}
+    margin-bottom:20px;
 
+}
+.FeatureDescription{
+    color: rgba(252, 252, 252, 0.80);
+    font-size:1em;
+    font-family:'ITC Avant Garde Gothic Std Book';
+    line-height:1.5;
+    text-align: justify;
+    margin-top:20px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom:50px;
+    width:80%;
+
+}
+.SourceDescription {
+    color: rgba(252, 252, 252, 0.80);
+    font-size:0.8em;
+    font-family:'ITC Avant Garde Gothic Std Book';
+    line-height:1.5;
+    text-align: justify;
+    width:98%;
+    padding-top:10px;
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom:10px;
+}
+.VideoContainer {
+    width:80%;
+    margin-top:5%;
+    margin-left: auto;
+    margin-right: auto;
+}
 .ProjectVideo {
     display:flex;
     justify-content: center;
     /* margin-top:25px; */
     width:100%;
-    height:0;
+    /* height:0; */
     position: relative;
     /* height:56wi; */
-    padding-top: 56.25%;
+    position: relative;
+    padding-top: 56.25%
 }
 .ReactPlayer{
     position: absolute;
     top: 0;
     left: 0;
-  }
+}
+.Heading{
+    color:white;
+    transition: 400ms ease-in-out 0s;
+    font-size: 2em;
+    font-family:'ITC Avant Garde Gothic Std Book';
+    margin-bottom: 2vh;
+}
+.SourceCode {
+    border-top: 1px #7e7e7e28 solid;
+    border-bottom: 1px #7e7e7e28 solid;
+    width:98%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left !important;
+    background-color: #22212c;
+    font-size: 0.7em;
+}
+.SourceCode span{
+    background-color: #22212c !important;
+
+}
+.DoubleArrow {
+    height:25px;
+    margin:-25px;
+    /* margin-right:auto; */
+    /* width:0; */
+    margin-left:25px;
+    /* margin-right:auto; */
+    transform: rotate(-90deg);
+    transition: 240ms 0ms ease;
+}
+.sourceCodeTitle{
+    /* margin-right:40%; */
+    width:100%;
+}
+.triggerContainer {
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: nowrap;
+    align-items: center;
+    /* justify-content: space-evenly; */
+}
+.FinalLinksSubContainer {
+    font-family:'ITC Avant Garde Gothic Std Book';
+    line-height:1.5;
+    text-align: justify;
+    border: 1px #7e7e7e65 solid;
+    padding-bottom: 2%;
+    padding-top:2%;
+    cursor:pointer;
+    max-width: 200px;
+    height:70px;
+    margin-top: 5%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 20px;
+    padding-right:20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-content: center;
+    text-decoration:none;
+    align-items: center;
+}
+.FinalLinksSubContainer span{
+    width: auto;
+    color:#59e9e4;
+    opacity:0.8;
+    text-align:center;
+    font-size:16px;
+    list-style: none;
+    /* height:100%; */
+    /* margin-top:auto; */
+    /* margin-bottom: auto; */
+    line-height: 1;
+}
+.FinalLinksSubContainer:hover{
+    background-color: rgba(224, 255, 255, 0.171);
+}
+.FinalLinksSubContainer:hover span{
+    color:#ffffff;
+}
+.finalLinks{
+    display:flex;
+    width:80%;
+    /* min-height:200px; */
+    max-width: 720px;
+    margin-right:auto;
+    margin-left:auto;
+}
+.versionText{
+    /* position: absolute; */
+    margin-bottom:-24px;
+    color: gray;
+    margin-right:5px;
+}

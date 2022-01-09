@@ -91,6 +91,14 @@
     margin:0;
     margin-top:10px;
 }
+.DevBlogHeader{
+    color: rgb(252, 252, 252);
+    font-size:14px;
+    opacity:0.8;
+    font-style: italic;
+    margin-bottom:-19px;
+    transform: translateY(-19px);
+}
 :root {
     --notchSize: 5%;
 }
