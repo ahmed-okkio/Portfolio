@@ -1,6 +1,6 @@
 # Personal Portfolio
 
 
-This is my personal portfolio that is built using ReactJS
+This is my personal portfolio built on React
 
 
