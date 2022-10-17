@@ -21,7 +21,7 @@ const Footer = (props) => {
                 </ul>
             </div>
             <div className={classes.Version}>
-                <br/>Last updated 07/01/2022
+                <br/>Last updated 28/01/2022
             </div>
         </div>
     )

@@ -5,6 +5,8 @@
     padding-top:50px;
     font-family: 'ITC Avant Garde Gothic Std Book';
     padding-bottom:100px;
+    margin-top:5vh;
+
 }
 .skillsContainer {
      /* overflow: hidden; */
@@ -14,8 +16,8 @@
     font-family: 'ITC Avant Garde Gothic Std Medium';
     font-size: 18px;
     margin-left: auto;
-    text-align: left;
     margin-right: auto;
+    text-align: left;
     display: flex;
     justify-content: space-around;
     padding-bottom:150px;

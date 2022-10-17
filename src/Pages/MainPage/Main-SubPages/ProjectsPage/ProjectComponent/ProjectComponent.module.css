@@ -6,6 +6,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    justify-self: left;
     align-content: center;
     margin-bottom:auto;
 }
@@ -90,6 +91,16 @@
     text-align: justify;
     margin:0;
     margin-top:10px;
+}
+.ProjectTags{
+    color: rgb(187, 187, 187);
+    font-size:16px;
+    font-family:'ITC Avant Garde Gothic Std Book';
+    line-height:1.5;
+    text-align: justify;
+    margin:0;
+    margin-top:10px;
+    font-style: italic;
 }
 .DevBlogHeader{
     color: rgb(252, 252, 252);

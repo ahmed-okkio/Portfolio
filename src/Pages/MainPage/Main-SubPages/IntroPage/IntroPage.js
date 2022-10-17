@@ -41,7 +41,7 @@ const IntroPage = () => {
             <div className={classes.WelcomeTextContainer}>
                 <span className={classes.WelcomeText} style={textStyle}>{text}</span>
             </div>
-            <img className={classes.DoubleArrow} style={arrowStyle} src={DoubleArrow}/>
+            <img className={classes.DoubleArrow} onClick={()=>{document.getElementById('ProjectsHeader').scrollIntoView();}} style={arrowStyle} src={DoubleArrow}/>
             <div className={classes.IntroContainer}>
                 <div className={classes.IntroContainerTwo}>
                     {/* <video className={classes.Intro} autoPlay loop muted>
