@@ -13,20 +13,20 @@ const MainPage = (props) =>
     return(
         <>
             <div className={classes.mainBody}>
-                <div className={classes.Page} >
+                {/* <div className={classes.Page} >
                     <IntroPage/>
-                </div>
-                <div className={classes.Page}>
-                    <BackgroundPage scrollOffset={props.scrollOffset}/>
-                </div>
-                <div className={classes.Page}>
-                    <SkillsPage scrollOffset={props.scrollOffset}/>
-                </div>
+                </div> */}
                 <div className={classes.Page}>
                     <ProjectsContainer scrollOffset={props.scrollOffset}/>
                 </div>
                 <div className={classes.Page}>
                     <GameJamContainer scrollOffset={props.scrollOffset}/>
+                </div>
+                <div className={classes.Page}>
+                    <SkillsPage scrollOffset={props.scrollOffset}/>
+                </div>
+                <div className={classes.Page}>
+                    <BackgroundPage scrollOffset={props.scrollOffset}/>
                 </div>
                 <div className={classes.Page}>
                     <FinalPage scrollOffset={props.scrollOffset}/>

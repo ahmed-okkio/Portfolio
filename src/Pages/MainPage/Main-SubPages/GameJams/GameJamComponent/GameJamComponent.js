@@ -16,7 +16,7 @@ const ProjectComponent = (props) => {
             <div className={classes.ProjectDescription}>
                 {props.desc}
             </div>
-            
+            <div className={classes.ProjectTags}>{props.tags}</div>
         </div>
     )
 }

@@ -25,6 +25,7 @@
     fill: white;
     z-index: 5;
     position: relative;
+    cursor: pointer;
 }
 .IntroContainer {
     max-height:var(--realHeight);
