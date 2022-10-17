@@ -22,7 +22,7 @@ const ProjectsContainer = (props) => {
      This is my largest continuing project allowing me to take on and learn about 
      concepts such as networking and custom player movement. It also acts as a platform
      to execute other projects on programming gameplay mechanics.`]
-    let tags2 = "Unreal Engine, C++, Blueprint"
+    let tags2 = "Unreal Engine 4, C++, Blueprint"
     var link2 = "/Woken"
 
 

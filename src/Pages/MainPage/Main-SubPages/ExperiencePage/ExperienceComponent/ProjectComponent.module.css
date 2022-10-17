@@ -1,0 +1,147 @@
+.ProjectContainer {
+    height:100%;
+    margin-top: 10%;
+    padding-left: 20px;
+    padding-right:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: left;
+    align-content: center;
+    margin-bottom:auto;
+}
+.VisibleContainer {
+    width: calc(640px*var(--contentToScreenRatio));
+    height: calc(365px*var(--contentToScreenRatio));
+    
+    display: flex;
+    justify-content: center;
+}
+.animatedBorder {
+    /* top:-2px; */
+    width: calc(640px*var(--contentToScreenRatio));
+    height: calc(365px*var(--contentToScreenRatio));
+    transition: 250ms ease-out;
+    border: 1px #7e7e7e solid;
+    /* position: absolute; */
+    display: block;
+    position: absolute;
+    clip-path: polygon(
+        0% var(--notchSize), 
+        var(--notchSize) 0%, 
+        calc(100% - var(--notchSize)) 0%, 
+        100% var(--notchSize), 
+        100% calc(100% - var(--notchSize)), 
+        calc(100% - var(--notchSize)) 100%, 
+        var(--notchSize) 100%, 
+        0% calc(100% - var(--notchSize))
+      );
+}
+.VisibleContainer:hover .animatedBorder {
+    clip-path: polygon(
+        0% 0%, 
+        0% 0%, 
+        calc(100% - 0%) 0%, 
+        100% 0%, 
+        100% calc(100% - 0%), 
+        calc(100% - 0%) 100%, 
+        0% 100%, 
+        0% calc(100% - 0%)
+      );
+}
+.VisibleOutline {
+    width: calc(640px*var(--contentToScreenRatio));
+    height: calc(360px*var(--contentToScreenRatio));
+    border: 1px white solid;
+    
+}
+.imageContainer {
+    margin-top:auto;
+    margin-bottom: auto;
+    overflow: hidden;
+   
+    width: calc(630px*var(--contentToScreenRatio));
+    height: calc(354.38px*var(--contentToScreenRatio));
+}
+.VisibleContainer img {
+    width: inherit; /*calc here*/
+    height: inherit; /*calc here*/
+    margin-top:auto;
+    margin-bottom: auto;
+    transition: transform 150ms ease-out;
+    cursor: pointer;
+}
+.VisibleContainer:hover img {
+    transform: scale(1.06);
+}
+.ProjectName {
+    padding-top:30px;
+    /* padding-bottom: 5px; */
+    color:white;
+    font-size: 22px;
+    font-family:'ITC Avant Garde Gothic Std Medium';
+    
+}
+.ProjectDescription {
+    width: calc(640px*var(--contentToScreenRatio));
+    color: rgb(252, 252, 252);
+    font-size:16px;
+    font-family:'ITC Avant Garde Gothic Std Book';
+    line-height:1.5;
+    text-align: justify;
+    margin:0;
+    margin-top:10px;
+}
+.ProjectTags{
+    color: rgb(187, 187, 187);
+    font-size:16px;
+    font-family:'ITC Avant Garde Gothic Std Book';
+    line-height:1.5;
+    text-align: justify;
+    margin:0;
+    margin-top:10px;
+    font-style: italic;
+}
+.CompanyContainer {
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    padding:10px;
+    /* border-bottom: 1px #7e7e7e solid; */
+    /* margin-bottom: 5px; */
+    margin-left: auto;
+    margin-right: auto;
+}
+.CompanyLogo{
+    text-align: left;
+    margin: 0;
+    padding:0;
+    width:auto;
+}
+.CompanyLogo img{
+    /* width:64px; */
+    height:64px;
+}
+.CompanyName{
+    height:100%;
+    line-height: 64px;
+
+    width:100%;
+    text-align: left;
+    padding-left:15px;
+    margin: 0;
+    color:white;
+    font-size: 22px;
+    font-family:'ITC Avant Garde Gothic Std Medium';
+}
+.DevBlogHeader{
+    color: rgb(252, 252, 252);
+    font-size:14px;
+    opacity:0.8;
+    font-style: italic;
+    margin-bottom:-19px;
+    transform: translateY(-19px);
+}
+:root {
+    --notchSize: 5%;
+}
