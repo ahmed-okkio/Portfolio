@@ -1,11 +1,11 @@
 .mainBody  {
     width: 100%;
     height: 100%;   
-    background-color: #040c14;
+    /* background-color: #040c14; */
     /* overflow-x: hidden; */
 }
 .Page {
     min-height: auto;
     /* max-height: var(--realHeight); */
-    background-color: #040c14;
+    /* background-color: #040c14; */
 }

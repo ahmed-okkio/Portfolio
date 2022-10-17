@@ -21,6 +21,7 @@
 .displayName {
     width:50%;
     margin-left:5%;
+    
 }
 .nameContainer {
     margin:0;
@@ -40,10 +41,13 @@
 
 .firstName {
     color: #7e7e7e;
+    text-decoration: none;
 }
 .lastName {
     font-family: 'ITC Avant Garde Gothic Std Medium';
     color: #2bb7b2;    
+    line-height: 1.23;
+    text-decoration: none;
 }
 
 
@@ -58,7 +62,7 @@
     margin-right: 10%;
     /* width:50%; */
     min-width: 100px;
-    justify-content:end;
+    justify-content:flex-end;
     list-style: none;
     padding:0;
 }

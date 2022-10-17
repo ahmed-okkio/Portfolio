@@ -1,6 +1,6 @@
 .ProjectsContainer {
     width:100%;
-    margin-bottom: 10%;
+    /* margin-bottom: 10%; */
     transition: 400ms ease-in-out 200ms;
     opacity:0;  
     display:flex;
@@ -16,4 +16,5 @@
     /* font-weight: 500; */
     font-size: 35px;
     padding-top:50px;
+    padding-bottom: 100px;
 }

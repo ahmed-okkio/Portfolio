@@ -1,0 +1,84 @@
+.Collapsible {
+    min-height:  20px;
+    /* display:flex; */
+
+    /* bottom: auto; */
+    margin-bottom: 30px;
+    top:auto;
+    color:white;
+    text-align: center;
+    line-height: 70px;
+    transition: 100ms ease !important;
+    background-color:#040c14;
+    border: 1px #7e7e7e65 solid;
+    /* clip-path: polygon(
+        0% var(--notchSize), 
+        var(--notchSize) 0%, 
+        calc(100% - var(--notchSize)) 0%, 
+        100% var(--notchSize), 
+        100% calc(100% - var(--notchSize)), 
+        calc(100% - var(--notchSize)) 100%, 
+        var(--notchSize) 100%, 
+        0% calc(100% - var(--notchSize))
+      ); */
+}
+.Collapsible .Collapsible .Collapsible {
+    line-height: 40px;
+}
+/* .Collapsible .Collapsible {
+    border: 0px #7e7e7e65 solid;
+    border-bottom: 1px #7e7e7e65 solid;
+    border-top: 1px #7e7e7e65 solid;
+    border-bottom: 1px #7e7e7e65 solid;
+} */
+
+.Collapsible__trigger {
+    cursor: pointer;
+    margin-top:auto;
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    transition: 100ms ease;
+    font-family:'ITC Avant Garde Gothic Std Book';
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+            supported by Chrome, Edge, Opera and Firefox */
+
+}
+.Collapsible__trigger:hover {
+    color: #2bb7b2;
+}
+.Collapsible__trigger.is-open {
+    color: #2bb7b2;
+    border-bottom: 1px #7e7e7e54 solid;
+}    
+.Collapsible__contentOuter {
+    /* transition-delay: 500ms !important; */
+    transition: 200ms ease !important;
+}
+.Collapsible__contentOuter {
+    font-family:'Consolas';
+    background-color: #040a119d; 
+}
+.Collapsible .Collapsible .Collapsible__contentOuter  {
+    font-family:'Consolas';
+    background-color: #3737374d;
+}
+code {
+    background-color: #22212c;
+    line-height: 1.2 !important;
+}
+.Collapsible::after{
+    clip-path: unset;
+    background-color: violet;
+}
+/* .Collapsible:active {
+    background-color: lightcoral;
+}
+.Collapsible:hover {
+    background-color: lightcoral;
+} */

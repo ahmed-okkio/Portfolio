@@ -14,26 +14,7 @@
     font-family: 'ITC Avant Garde Gothic Std Medium';
     overflow: hidden;
 }
-.Footer {
-    font-family: 'Roboto';
-    bottom:0;
-    width:100%;
-    min-height:200px;
-    display:flex;
-    font-weight: bold;
-    background-color: #061627;
-    align-items: center;
-}
-.Credits {
-    margin-top:10px;
-    font-size: 20px;
-    text-align: left;
-    font-weight: 500;
-    color:white;
-    margin-left: 2%;
-    margin-right:auto;
-    display: flex;
-}
+
 .whiteBar {
     /* margin-top:2px; */
     width:8px;
@@ -169,8 +150,10 @@
 }
 
 .Version {
-    position: absolute;
+    /* position: absolute; */
     bottom: 0;
+    height:20%;
+    margin-top:10px;
     margin-bottom: 10px;
     margin-right: auto;
     margin-left:2%;
@@ -178,6 +161,35 @@
     font-size: 12px;
     font-family: 'ITC Avant Garde Gothic Std Bold';
     color: rgba(255, 255, 255, 0.726);
+}
+.Footer {
+    font-family: 'Roboto';
+    bottom:0;
+    margin-top:5%;
+    width:100%;
+    min-height:200px;
+    display:flex;
+    flex-direction: column;
+    font-weight: bold;
+    background-color: #061627;
+    align-items: center;
+    /* justify-content: center; */
+}
+.Credits {
+    margin-top:10px;
+    font-size: 20px;
+    text-align: left;
+    font-weight: 500;
+    color:white;
+    margin-left: 2%;
+    margin-right:auto;
+    display: flex;
+}
+.UpperFooter {
+    display: flex;
+    width:100%;
+    height:80%;
+    margin-top:auto;
 }
 
 @keyframes mailanim {

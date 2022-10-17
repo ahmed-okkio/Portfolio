@@ -1,7 +1,7 @@
 import React, {useEffect,useState} from 'react';
 import classes from '../ProjectsPage/ProjectsContainer.module.css';
 import GameJamComponent from './GameJamComponent/GameJamComponent';
-import Rewild from '../../Assets/Rewild.png'
+import Rewild from '../../../../Assets/Rewild.png'
 
 
 

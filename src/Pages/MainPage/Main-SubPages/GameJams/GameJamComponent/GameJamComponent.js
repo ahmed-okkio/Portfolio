@@ -4,7 +4,7 @@ import classes from '../../ProjectsPage/ProjectComponent/ProjectComponent.module
 const ProjectComponent = (props) => {
     return(
         <div className={classes.ProjectContainer}>
-        <a href={props.link} target="_blank">
+        <a href={props.link} target="_blank" rel="noopener noreferrer">
                 <div className={classes.VisibleContainer}>
                     <canvas className={classes.animatedBorder}/>
                     <div className={classes.imageContainer}>
