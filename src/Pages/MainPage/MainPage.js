@@ -29,9 +29,9 @@ const MainPage = (props) =>
                 <div className={classes.Page}>
                     <SkillsPage scrollOffset={props.scrollOffset}/>
                 </div>
-                <div className={classes.Page}>
+                {/* <div className={classes.Page}>
                     <BackgroundPage scrollOffset={props.scrollOffset}/>
-                </div>
+                </div> */}
                 <div className={classes.Page}>
                     <FinalPage scrollOffset={props.scrollOffset}/>
                 </div>

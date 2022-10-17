@@ -30,31 +30,34 @@ const SkillsPage = (props) =>{
                     <div className={classes.languagesHeader}>Languages</div>
                     <ul className={classes.languages}>
                         <li>C++</li>
-                        <li>JavaScript</li>
                         <li>Python</li>
-                        <li>HTML</li>   
-                        <li>CSS</li>
+                        <li>Java</li>   
+                        <li>JavaScript</li>
+                        <li>Kotlin</li>
                         <li>C#</li>
+                        <li>SQL</li>
 
                     </ul>
                 </div>
                 <div className={classes.enginesContainer}>
                     <div className={classes.enginesHeader}>Engines/Frameworks</div>
                     <ul className={classes.engines}>
-                        <li>Unreal Engine 4</li>
+                        <li>Unreal Engine</li>
                         <li>React</li>
+                        <li>Django</li>
                         <li>NodeJS</li>
                         <li>ExpressJS</li>
                         <li>MongoDB</li>
                         <li>Firebase</li>
-                        <li>Phaser</li>
                     </ul>
                 </div>
                 <div className={classes.softwareContainer}>
                     <div className={classes.softwareHeader}>Software/Tools</div>
                     <ul className={classes.software}>
-                        <li>VS Code</li>
-                        <li>Git/Github</li>
+                        <li>Jira</li>
+                        <li>Miro</li>
+                        <li>Perforce/Git</li>
+                        <li>Jenkins</li>
                         <li>Trello</li>
                         <li>Vegas Pro</li>
                         <li>Adobe Photoshop</li>                      

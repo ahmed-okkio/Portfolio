@@ -31,7 +31,7 @@ const BackgroundPage = (props) => {
                 BACKGROUND
             </div>
             <div className={classes.Background} style={loadStyle}>
-                Hey, my name is Ahmed Hamad and I'm a computer science student, competitive gamer and junior game developer.
+                My name is Ahmed Hamad and I'm a computer science student, competitive gamer and junior game developer.
                 Currently learning new skills and mastering my craft by exploring and studying leading industry games and creating my own.
                 I'm actively looking for opportunities in the gaming industry to kick start my career, 
                  gain valuable professional experience and to work with fantastic like minded people.
